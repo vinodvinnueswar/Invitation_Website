@@ -1,5 +1,5 @@
 import React from 'react'
-import QR from '../assets/images/Qr.webp'
+import QR from '../assets/images/QR.webp'
 import video from '../assets/videos/vinod.mp4'
 
 const Features = () => {
