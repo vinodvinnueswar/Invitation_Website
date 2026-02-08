@@ -10,14 +10,14 @@ const Footer = () => {
       <div className="Footer-details">
         <div className="Footer-row">
           <div className="site-details">
-          <h2>InviteDigitly</h2>
+          <h2>InviteDigitly</h2> <br />
           <p>InviteDigitly is a premium platfrom dedicated to offering <br />
              beautiful and customizable digital invitations for all <br />
              your special occasions.
              </p>
-        </div>
+          </div>
         <div className="categories-details">
-          <h2>Categories</h2>
+          <h2>Categories</h2> <br />
           <ul>
             <li>Wedding</li>
             <li>Birthday</li>
@@ -26,7 +26,7 @@ const Footer = () => {
           </ul>
         </div>
         <div className="Quick-links">
-          <h2>Quick Links</h2>
+          <h2>Quick Links</h2> <br />
           <ul>
             <li>Samples</li>
             <li>Reviews</li>

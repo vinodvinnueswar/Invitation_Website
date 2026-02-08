@@ -46,12 +46,13 @@ const Samples_Page = () => {
 
         {vendorData.vendors.map((vendor) =>
           vendor.inventory?.map((item, index) => (
+            <>
+            <div className="card">
             <Link
               key={`${vendor._id}-${index}`}
-              className="Products"
-              to={item?.webUrl}
+              to={item?.webUrl} style={{textDecoration: "none"}}
             >
-              <div>
+              <div className="Products">
                 <img
                   src={`${API_Path}/uploads/${item.image}`}
                   alt={item.name || 'product'}
@@ -59,6 +60,9 @@ const Samples_Page = () => {
                 <h4>{item.name}</h4>
               </div>
             </Link>
+            <button className='btn-order' onClick={() => navigate('/Create_Invitation')}>Order Now</button>
+            </div>
+            </>
           ))
         )}
       </div>

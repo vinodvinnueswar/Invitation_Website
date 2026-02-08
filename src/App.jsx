@@ -16,7 +16,6 @@ import CreateInvitation from './components/CreateInvitation';
         <Route path="/Samples" element={<Samples_Page/>} />
         <Route path='/Create_Invitation'  element={<CreateInvitation/>}/>
         <Route path='/Inventory/:category' element={<Filtered/>} />
-
       </Routes>
     </BrowserRouter>
      </div>
