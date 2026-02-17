@@ -32,7 +32,7 @@ const Themes = () => {
 (item, index) => (
 <div className="theme-card" key={index}>
 <div className="theme-img">
-<img  src={item.image} alt={item.title} />
+<img  src={item.image} alt={item.title} /> <br />
 <button className="btn-theme" onClick={() => navigate('/samples')}>View Demo</button>
 </div>
 </div>
