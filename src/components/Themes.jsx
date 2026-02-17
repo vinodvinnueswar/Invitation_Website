@@ -24,7 +24,7 @@ const Themes = () => {
         
 {/* THEMES */}
 <section className="themes">
-<h2>Beautiful Digital Wedding Invitation Card Themes</h2>
+<h2>Beautiful Digital Wedding Invitation Card Themes</h2> <br />
 <h3>Exquisite Collection of Stunning & Customizable Wedding Invitation <br />
      Themes for Your Special Day</h3>
 <div className="theme-grid">

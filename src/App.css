@@ -202,11 +202,9 @@ font-weight: 100;
   justify-content: center;
   padding-left: 80px;
 }
-.phone-wrapper video{
-  height: 400px;
-  border: 3px solid burlywood;
+.phone-wrapper img{
+  height: 500px;
   padding: 10px;
-  background-color: burlywood;
   border-radius: 20px;
 }
 
@@ -714,11 +712,12 @@ padding-left: 80px;
   .categories,
   .samples,
   .themes {
-    padding: 50px 20px;
+    padding: 50px 40px;
   }
 
   .category-grid {
     grid-template-columns: 1fr;
+    padding-left: 20px;
   }
 
   .category-card,
@@ -740,6 +739,10 @@ padding-left: 80px;
   font-size: 12px;
  }
 
+ .Features{
+  font-size: 12px;
+ }
+
   .QR h2{
     margin-top: 20px;
     padding-right: 80px;
@@ -751,14 +754,14 @@ padding-left: 80px;
   .QR img{
     padding-left: 20px;
   }
+
+  .features{
+    padding: 20px;
+  }
   .features-Phone{
     margin-top: -30px;
     display: flex;
   }
-  .features h2 {
-    font-size: 24px;
-  }
-
   .features span {
     display: block;
     margin: 10px auto;
@@ -801,25 +804,20 @@ padding-left: 80px;
     height: auto;
   }
 
-  .phone-wrapper {
+  .phone-wrapper img{
+    display: flex;
+    height: 200px;
+    width: 200px;
+  }
+
+.Footer{
   display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 40px 0;
-  width: 40px;
-  padding-right: 76px;
-}
-.phone-wrapper video{
- height: 220px;
- border: 3px solid burlywood;
- padding: 10px;
- background-color: burlywood;
 }
 
-  .Footer-details {
-   height: auto;
-    gap: 20px;
-    font-size: 18px;
+.Footer-details {
+  font-size: 14px;
+  padding: 0px;
+  padding-right: 500px;
   }
   .categories-details{
     padding-right: 200px;
@@ -827,16 +825,12 @@ padding-left: 80px;
   .Quick-links{
       padding-right: 180px;
   }
-
-  .footer{
-    margin-top: 20px;
-  }
-  .footer .contact{
-   text-align: center;
-  }
+.footer{
+  padding: 10px;
+}
 
   .Social-media {
-    justify-content: center;
+    padding-right: 100px;
   }
 
 }

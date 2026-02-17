@@ -15,24 +15,20 @@ const Features = () => {
   <h2>Instant WhatsApp Sharing</h2>
   <h3>Share your digital invitation with <br />
       unlimited guests in one click</h3>
-<span>No Printing</span>
-<span>No Courier</span>
-<span>Eco Friendly</span>
-<div className="QR">
-  <h2>QR Integration</h2>
-  <img src={QR} alt="" />
-</div>
-</div>
-<div className="phone-wrapper">
-  <img src={ShareImg} alt="" />
-   {/* <video controls autoPlay muted loop>
-      <source src={video} type="video/mp4" />
-      Your browser does not support video.
-    </video> */}
-</div>
-</div>
-</section>
-   </div>
+        <span>No Printing</span>
+        <span>No Courier</span>
+        <span>Eco Friendly</span>
+        <div className="QR">
+          <h2>QR Integration</h2>
+          <img src={QR} alt="" />
+        </div>
+        </div>
+        <div className="phone-wrapper">
+          <img src={ShareImg} alt="" />
+        </div>
+        </div>
+        </section>
+          </div>
   )
 }
 
