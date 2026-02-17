@@ -1,19 +1,21 @@
 import React from 'react'
-import coupleImg1 from '../assets/images/couple1.png'
-import coupleImg2 from '../assets/images/couples2.png'
-import coupleImg3 from '../assets/images/couples.jpg'
+import Poster1 from '../assets/images/Poster_1.png'
+import Poster2 from '../assets/images/Poster_2.png'
+import Poster3 from '../assets/images/Poster_3.png'
+import { useNavigate } from 'react-router-dom'
 
 const Themes = () => {
+  const navigate = useNavigate()
 
    const data = [
     {
-      title: "Floral Wedding" ,image: coupleImg2
+      title: "Floral Wedding" ,image: Poster1,  
     },
      {
-      title: "Floral Wedding" ,image: coupleImg1
+      title: "Floral Wedding" ,image: Poster2
     },
      {
-      title: "Floral Wedding" ,image: coupleImg2
+      title: "Floral Wedding" ,image: Poster3
     }
    ]
 
@@ -31,8 +33,7 @@ const Themes = () => {
 <div className="theme-card" key={index}>
 <div className="theme-img">
 <img  src={item.image} alt={item.title} />
-<button className="btn-theme">View Demo</button>
-{/* <h3>{item.title}</h3> */}
+<button className="btn-theme" onClick={() => navigate('/samples')}>View Demo</button>
 </div>
 </div>
 )

@@ -6,6 +6,7 @@ import Categories from '../components/Categories'
 import Features from '../components/Features'
 import Themes from '../components/Themes'
 import Footer from '../components/Footer'
+import Context from '../components/Context'
 
 const Home = () => {
   return (
@@ -13,6 +14,7 @@ const Home = () => {
       <Navbar/>
       <Hero/>
       <Categories/>
+      <Context/>
       <Themes/>
       <Features/>
       <Footer/>

@@ -38,19 +38,23 @@ const Footer = () => {
         {/* fOOTER */}
         <footer className="footer">
           <div className="contact">
-                <p>Phone : +91 9346999046 | Email : InviteDigitly@gmail.com</p>
+                <h2>Contact</h2> <br />
+                <p>What'sapp : +91 9346999046 </p> <br />
+                 <p>Email : InviteDigitly@gmail.com</p>
           </div>
-          <div className="Terms-Condtions">
-                <p>Terms & Conditions | Privacy Policy</p>
-          </div>
+    
           <div className="Social-media">
-                    <img src={instagram} alt="" />
-                    <p>Instagram</p>
+                     <h2>Follow Us</h2> <br />
+                     <div className="icons">
+                     <img src={instagram} alt="" />
                     <img src={facebook} alt="" />
-                    <p>Facebook</p>
                     <img src={whatsApp} alt="" />
-                    <p>What'sapp</p>
+                     </div>
           </div>
+
+           {/* <div className="Terms-Condtions">
+                <p>Terms & Conditions <br /> Privacy Policy</p>
+          </div> */}
         </footer>
              
         </div>

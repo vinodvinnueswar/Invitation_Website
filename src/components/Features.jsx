@@ -1,6 +1,7 @@
 import React from 'react'
 import QR from '../assets/images/QR.webp'
 import video from '../assets/videos/vinod.mp4'
+import ShareImg from '../assets/images/Share_Img.png'
 
 const Features = () => {
   return (
@@ -23,10 +24,11 @@ const Features = () => {
 </div>
 </div>
 <div className="phone-wrapper">
-   <video width="600" controls autoPlay muted loop>
+  <img src={ShareImg} alt="" />
+   {/* <video controls autoPlay muted loop>
       <source src={video} type="video/mp4" />
       Your browser does not support video.
-    </video>
+    </video> */}
 </div>
 </div>
 </section>

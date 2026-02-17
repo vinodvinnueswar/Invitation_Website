@@ -43,7 +43,7 @@ const Filtered = () => {
        
       <div className="Inventory">
         <div className="Back-Button">
-            <button className='btn-Back' onClick={ () => navigate('/')}>Go Back</button>
+            <button className='btn-Back' onClick={ () => navigate('/')}>🡰</button>
         </div>
         <div className="Inventory-Details">
            <h2>{category.toUpperCase()} INVENTORY</h2>
@@ -51,12 +51,15 @@ const Filtered = () => {
       <div className="Inventory-Products">
             {filteredData.length > 0 ? (
               filteredData.map(item => (
-                
+                <div className="card">
                 <Link className="Products" to={item?.webUrl}>
                 <div key={item._id}>
                   <img src={`${API_Path}/uploads/${item.image}`} alt="" />
+                  <h4>{item.name}</h4>
                 </div>
                 </Link>
+                 <button className='btn-order' onClick={() => navigate('/Create_Invitation')}>Order Now</button>
+                </div>
               ))
             ) : (
               <h3>No items found</h3>

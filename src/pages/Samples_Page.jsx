@@ -32,7 +32,7 @@ const Samples_Page = () => {
     <div className="Inventory">
       <div className="Back-Button">
         <button className="btn-Back" onClick={() => navigate('/')}>
-          Go Back
+          🡰
         </button>
       </div>
 
