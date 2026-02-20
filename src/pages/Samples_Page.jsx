@@ -53,10 +53,7 @@ const Samples_Page = () => {
               to={item?.webUrl} style={{textDecoration: "none"}}
             >
               <div className="Products">
-                <img
-                  src={`${API_Path}/uploads/${item.image}`}
-                  alt={item.name || 'product'}
-                />
+                <img src={item.image} alt="product" />
                 <h4>{item.name}</h4>
               </div>
             </Link>

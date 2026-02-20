@@ -167,13 +167,14 @@ font-weight: 100;
   justify-content: center;
   background: linear-gradient(rgba(177, 58, 58, 0.155), rgba(214, 84, 84, 0.39)), url('assets/images/CR_In_Theme.png');
   background-size: cover;
+  padding-left: 260px;
 }
 .Mobile_Img img {
   height: 800px;
 }
 .context_details{
-  padding-left: 130px;
-  font-size: 20px;
+  padding-left: 70px;
+  font-size: 18px;
   color: #7a1f2b;
 }
 
@@ -234,13 +235,13 @@ color: white;
   margin-top: 60px;
   display: flex;
   align-items: center;
-  gap: 500px;
+  justify-content: center;
 }
 .features{
   margin-top: 30px;
 }
 .features h2{
-  font-size: 40px;
+  font-size: 30px;
 }
 .features h3{
   margin-top: 20px;
@@ -261,19 +262,19 @@ color: white;
 }
 
 /* QR Integrations */
+.QR{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .QR h2{
   margin-top: 10px;
-  font-size: 25px;
-  padding-right: 150px;
+  font-size: 20px;
   margin-bottom: 20px;
 }
-.QR{
-   padding-left: 150px;
-}
 .QR img{
-  margin-top: -18px;
-  height: 150px;
-  width: 150px;
+  height: 180px;
+  width: 180px;
 }
 
 /* Theme Card */
@@ -288,6 +289,7 @@ color: white;
   padding: 80px 140px;
   text-align: center;
   color:#7a1f2b;
+  padding-left: 240px;
 }
 .themes h2{
   font-weight: 700;
@@ -305,7 +307,6 @@ color: white;
   gap: 30px;
   margin-top: 40px;
 }
-
 
 .theme-img img{
   background: linear-gradient(0deg,rgba(255, 218, 172, 1) 0%, rgba(242, 228, 228, 1) 100%);
@@ -641,12 +642,12 @@ img {
   }
 
   .phone-wrapper {
-display: flex;
-align-items: center;
-justify-content: center;
-margin: 40px 0;
-width: 40px;
-padding-left: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 40px 0;
+    width: 40px;
+    padding-left: 80px;
 }
 .phone-wrapper video{
  height: 300px;
@@ -742,18 +743,6 @@ padding-left: 80px;
  .Features{
   font-size: 12px;
  }
-
-  .QR h2{
-    margin-top: 20px;
-    padding-right: 80px;
-  }
-  .QR {
-   padding-left: 80px;
-   margin-bottom: -40px;
-  }
-  .QR img{
-    padding-left: 20px;
-  }
 
   .features{
     padding: 20px;
