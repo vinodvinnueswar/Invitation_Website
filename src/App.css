@@ -11,7 +11,7 @@
 
 body{
   font-family: "Open Sans", sans-serif;
-  background: linear-gradient(rgba(252, 219, 187, 0.864), rgba(246, 204, 204, 0.793)), url('assets/images/Theme-bg.jpeg');
+  background: linear-gradient(rgba(248, 227, 207, 0.8), rgba(246, 204, 204, 0.793)), url('assets/images/Theme-bg.jpeg');
   background-size: cover;
    color: #7a1f2b;
   line-height:1.6;
