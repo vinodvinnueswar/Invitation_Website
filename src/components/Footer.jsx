@@ -57,10 +57,10 @@ const Footer = () => {
           <div className="Social-media">
             <h2>Follow Us</h2>
             <div className="icons">
-              <a href="https://www.facebook.com/profile.php?id=61576721319356">
+              <a href="https://www.instagram.com/invite.digitally_official">
                 <img src={instagram} alt="Instagram" />
               </a>
-              <a href="https://www.instagram.com/invite.digitally_official">
+              <a href="https://www.facebook.com/profile.php?id=61576721319356">
                 <img src={facebook} alt="Facebook" />
               </a>
               <a href="https://wa.me/message/53QBGU52ZJQCE1">
