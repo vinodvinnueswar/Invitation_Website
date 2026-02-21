@@ -59,7 +59,9 @@ const Footer = () => {
             <div className="icons">
               <img src={instagram} alt="Instagram" />
               <img src={facebook} alt="Facebook" />
-              <img src={whatsApp} alt="WhatsApp" />
+              <a href="https://wa.me/message/53QBGU52ZJQCE1">
+                <img src={whatsApp} alt="WhatsApp" />
+              </a>
             </div>
             <br />
             <p>Stay connected with us for new invitation designs, ideas and updates.</p>
