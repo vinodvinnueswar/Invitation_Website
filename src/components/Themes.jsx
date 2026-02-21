@@ -14,11 +14,11 @@ title: "Royal Floral Wedding",
 image: Poster1
 },
 {
-title: "Elegant Traditional Wedding",
+title: "Custom Birthday Party",
 image: Poster2
 },
 {
-title: "Classic Modern Wedding",
+title: "Classic Half-Saree Design",
 image: Poster3
 }
 ]

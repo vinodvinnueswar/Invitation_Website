@@ -1,13 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import GoldTag from "../assets/images/Gold_TagLine2.png";
+import Logo from '../assets/Logo/Logo-img.png'
 
 const Navbar = () => {
   return (
     <nav className="navbar">
-
       <div className="logo-section">
+         <div className="logo">
+        <img src={Logo} alt="" />
         <h1 className="logo">InviteDigitly</h1>
+      </div>
         {/* <img className="Gold_Line" src={GoldTag} alt="tagline decoration" /> */}
         <p className="tagline">Elegant Digital Invitations for Every Celebration</p>
       </div>

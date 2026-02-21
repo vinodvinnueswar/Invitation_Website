@@ -36,7 +36,8 @@ h1,h2,h3{
 
 .navbar{
   display:flex;
-  justify-content:space-between;
+  align-items: center;
+  justify-content: center;
   align-items:center;
   padding:20px 10%;
   background: linear-gradient(rgba(151, 53, 53, 0.449), rgba(109, 56, 56, 0.071)), url('assets/images/Theme-bg.jpeg');
@@ -46,10 +47,18 @@ h1,h2,h3{
   top:0;
   z-index:100;
 }
+.logo{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.logo img{
+  height: 40px;
+}
 
 .logo{
   font-size:30px;
-  font-family:"Great Vibes", cursive;
   color:#7a1f2b;
 }
 
@@ -538,7 +547,6 @@ border-radius:20px;
 
 .logo{
   font-size:30px;
-  font-family:"Great Vibes", cursive;
   color:#7a1f2b;
   text-align: center;
 }
