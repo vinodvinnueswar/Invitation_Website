@@ -13,12 +13,12 @@ const Navbar = () => {
       </div>
       <br />
 
-      <ul className="nav-links">
+      {/* <ul className="nav-links">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/Categories">Categories</Link></li>
         <li><Link to="/Samples">Samples</Link></li>
         <li><Link to="/Create_Invitation">Create Invitation</Link></li>
-      </ul>
+      </ul> */}
 
     </nav>
   );
