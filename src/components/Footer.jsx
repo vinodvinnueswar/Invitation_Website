@@ -57,8 +57,12 @@ const Footer = () => {
           <div className="Social-media">
             <h2>Follow Us</h2>
             <div className="icons">
-              <img src={instagram} alt="Instagram" />
-              <img src={facebook} alt="Facebook" />
+              <a href="https://www.facebook.com/profile.php?id=61576721319356">
+                <img src={instagram} alt="Instagram" />
+              </a>
+              <a href="https://www.instagram.com/invite.digitally_official">
+                <img src={facebook} alt="Facebook" />
+              </a>
               <a href="https://wa.me/message/53QBGU52ZJQCE1">
                 <img src={whatsApp} alt="WhatsApp" />
               </a>
