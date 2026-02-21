@@ -42,9 +42,11 @@ const Filtered = () => {
   return (
        
       <div className="Inventory">
-        <div className="Back-Button">
+        {/* <div className="Back-Button">
             <button className='btn-Back' onClick={ () => navigate('/')}>🡰</button>
-        </div>
+        </div> */}
+        <br />
+        <br />
         <div className="Inventory-Details">
            <h2>{category.toUpperCase()} INVENTORY</h2>
         </div>

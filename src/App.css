@@ -319,6 +319,194 @@ border-radius:20px;
 }
 
 
+/* Inventory */
+.Inventory{
+    background: linear-gradient(rgba(166, 45, 45, 0.252), rgba(235, 121, 121, 0)), url('assets/images/CR_In_Theme.png');
+    background-size: cover;
+    background-position: center;
+    color:#7a1f2b;
+    height: 1000px;
+  /* padding: 0px 30px 200px 30px; */
+}
+.Inventory-Details{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Inventory-Details h2{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 30px;
+}
+.Inventory-Details p{
+  font-family: 'Courier New', Courier, monospace;
+}
+.Back-Button{
+   padding: 20px;
+}
+.btn-Back{
+  width: 40px;
+  border-radius: 10px;
+  background: linear-gradient(0deg,rgba(122, 31, 43, 1) 0%, rgba(84, 12, 20, 1) 100%);
+  color:#d3c1ab;
+  padding: 5px;
+}
+
+/* Inventory */
+.Inventory-Products{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));
+  margin-top: 40px;
+  padding: 50px 150px;
+  align-items: center;
+  width: 100%;
+}
+.card{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 15px;
+}
+.Products img{
+  height: auto;
+  width: 300px;
+  border-radius: 20px;
+  margin-bottom: 15px;
+  background: linear-gradient(0deg,rgba(255, 223, 186, 0.466) 0%, rgba(238, 206, 206, 0.411) 100%);
+  color: #7a1f2b;
+  box-shadow:2px 1px 3.5px 2px #2d230075;
+}
+.Products{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  border-radius: 10px;
+}
+.Products h4{
+  text-align: center;
+  color:#7a1f2b;
+  text-decoration: none;
+  font-size: 16px;
+}
+.btn-order{
+  padding: 5px 20px;
+  background: linear-gradient(0deg,rgba(255, 218, 172, 1) 0%, rgba(242, 228, 228, 1) 100%);
+  color: #7a1f2b;
+  border: 1px solid #7a1f2b;
+  border-radius: 5px;
+}
+
+.collections{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 4fr));
+  margin-top: 40px;
+  padding: 50px 150px;
+  align-items: center;
+}
+
+
+
+/* Create Invitation Page */
+.Create_Invitation{
+  text-align: center;
+   margin-top: -138px;
+    background: linear-gradient(rgba(166, 45, 45, 0.252), rgba(235, 121, 121, 0)), url('assets/images/CR_In_Theme.png');
+    background-size: cover;
+    background-position: center;
+    padding: 140px 20px;
+    text-align: center;
+    color:#6b4c2f;
+ 
+}
+.Create_Invitation h2{
+  margin-top: 30px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 35px;
+}
+.Invitation_Details_filling{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Mess_text1{
+  padding:2px 50px;
+  border:none;
+  border-radius:10px;
+  font-size:18px;
+  background: #2A7B9B;
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(43, 154, 91, 1) 0%, rgba(29, 168, 87, 1) 100%, rgba(237, 221, 83, 1) 100%);
+  color:white;
+  cursor:pointer;
+}
+.Mess_text2{
+  margin-top: 10px;
+  padding:2px 50px;
+  border:none;
+  border-radius:10px;
+  font-size:18px;
+  background: #2A7B9B;
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(43, 154, 91, 1) 0%, rgba(29, 168, 87, 1) 100%, rgba(237, 221, 83, 1) 100%);
+  color:white;
+  cursor:pointer;
+}
+.details_card{
+  display: flex;
+  flex-direction: column;
+  max-width:900px;
+  margin:40px auto;
+  padding:30px;
+  background: linear-gradient(0deg,rgba(255, 218, 172, 1) 0%, rgba(242, 228, 228, 1) 100%);
+  border-radius:20px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.08);
+  gap: 10px;
+}
+.details_card input{
+  padding:14px;
+  border-radius:10px;
+  border:1px solid #ddd;
+  font-size:15px;
+}
+.whatsapp-btn{
+  margin-top:20px;
+  width:100%;
+  padding:14px;
+  border:none;
+  border-radius:30px;
+  font-size:18px;
+  background: #2A7B9B;
+  background: linear-gradient(90deg, rgba(42, 123, 155, 1) 0%, rgba(43, 154, 91, 1) 0%, rgba(29, 168, 87, 1) 100%, rgba(237, 221, 83, 1) 100%);
+  color:white;
+  cursor:pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.whatsapp-btn img{
+  height: 30px;
+  width: 30px;
+}
+.features-1{
+  display:flex;
+  justify-content:space-around;
+  margin-top:30px;
+  text-align:center;
+}
+.feature{ flex:1; }
+.footer-1{
+  text-align:center;
+  margin-top:30px;
+  color:#6b4c2f;
+  font-size:18px;
+}
+
+
+
 /* TABLET */
 
 @media(max-width:1024px){
@@ -395,6 +583,36 @@ section{
 .context_details{
   padding: 20px;
 }
+
+.Inventory {
+    height: auto;
+    padding-bottom: 50px;
+  }
+  .Inventory h2{
+    font-size: 20px;
+  }
+  .Inventory-Details p{
+    padding: 20px;
+    text-align: center;
+  }
+
+  .Inventory-Products {
+    grid-template-columns: 1fr;
+    padding: 20px;
+  }
+
+  .Products {
+    height: auto;
+    width: 100%;
+  }
+
+  .Products img {
+    width: 100%;
+    height: auto;
+  }
+
+
+
 
 }
 
