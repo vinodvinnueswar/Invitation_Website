@@ -1,65 +1,78 @@
-import React from 'react'
-import instagram from '../assets/images/Social-media/instagram.png'
-import facebook from '../assets/images/Social-media/communication.png'
-import  whatsApp from '../assets/images/Social-media/whatsapp.png'
+import React from "react";
+import instagram from "../assets/images/Social-media/instagram.png";
+import facebook from "../assets/images/Social-media/communication.png";
+import whatsApp from "../assets/images/Social-media/whatsapp.png";
 
 const Footer = () => {
   return (
     <div className="Footer">
-      {/* FOOTER */}
       <div className="Footer-details">
         <div className="Footer-row">
+
           <div className="site-details">
-          <h2>InviteDigitly</h2> <br />
-          <p>InviteDigitly is a premium platfrom dedicated to offering <br />
-             beautiful and customizable digital invitations for all <br />
-             your special occasions.
-             </p>
+          <h2>InviteDigitly</h2>
+            <p>
+            InviteDigitly is a creative digital invitation platform crafted to make
+            your celebrations memorable. We design elegant, modern and customizable
+            e-invites for weddings, birthdays, traditional ceremonies and special
+            events. Share your happiness instantly with beautifully designed
+            invitations that your friends and family will love.
+            </p>
           </div>
-        <div className="categories-details">
-          <h2>Categories</h2> <br />
-          <ul>
-            <li>Wedding</li>
-            <li>Birthday</li>
-            <li>Half Saree</li>
-            <li>House Warming</li>
-          </ul>
+
+          <div className="categories-details">
+              <h2>Invitation Categories</h2>
+              <ul>
+                <li>Wedding Invitations</li>
+                <li>Birthday Invitations</li>
+                <li>Half Saree Ceremony</li>
+                <li>House Warming Invitations</li>
+              </ul>
+          </div>
+
+          <div className="Quick-links">
+             <h2>Quick Links</h2>
+            <ul>
+              <li>View Invitation Samples</li>
+              <li>Customer Reviews</li>
+              <li>Privacy Policy</li>
+              <li>Terms & Conditions</li>
+            </ul>
+          </div>
+
         </div>
-        <div className="Quick-links">
-          <h2>Quick Links</h2> <br />
-          <ul>
-            <li>Samples</li>
-            <li>Reviews</li>
-            <li>Privacy Policy</li>
-            <li>Terms & Conditions</li>
-          </ul>
-        </div> 
-        </div>
-        {/* fOOTER */}
+        <br />
+
         <footer className="footer">
+
           <div className="contact">
-                <h2>Contact</h2> <br />
-                <p>What'sapp : +91 9346999046 </p> <br />
-                 <p>Email : InviteDigitly@gmail.com</p>
+            <h2>Contact Us</h2>
+            <p>WhatsApp : +91 9346999046</p>
+            <p>Email : invitedigitly@gmail.com</p>
+            <br />
+            <p>We are happy to help you design the perfect digital invitation.</p>
           </div>
-    
+          <br />
+
           <div className="Social-media">
-                     <h2>Follow Us</h2> <br />
-                     <div className="icons">
-                     <img src={instagram} alt="" />
-                    <img src={facebook} alt="" />
-                    <img src={whatsApp} alt="" />
-                     </div>
+            <h2>Follow Us</h2>
+            <div className="icons">
+              <img src={instagram} alt="Instagram" />
+              <img src={facebook} alt="Facebook" />
+              <img src={whatsApp} alt="WhatsApp" />
+            </div>
+            <br />
+            <p>Stay connected with us for new invitation designs, ideas and updates.</p>
           </div>
 
-           {/* <div className="Terms-Condtions">
-                <p>Terms & Conditions <br /> Privacy Policy</p>
-          </div> */}
         </footer>
-             
-        </div>
-</div>
-  )
-}
 
-export default Footer
+        <div className="footer-bottom">
+        <p>© 2026 InviteDigitly. All Rights Reserved.</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;

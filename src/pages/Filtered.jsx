@@ -54,8 +54,11 @@ const Filtered = () => {
                 <div className="card">
                 <Link className="Products" to={item?.webUrl}>
                 <div key={item._id}>
-                  <img src={`${API_Path}/uploads/${item.image}`} alt="" />
-                  <h4>{item.name}</h4>
+                  <img
+                  src={item.image}
+                  alt={item.name || 'Product'}
+                  />
+                  {/* <h4>{item.name}</h4> */}
                 </div>
                 </Link>
                  <button className='btn-order' onClick={() => navigate('/Create_Invitation')}>Order Now</button>

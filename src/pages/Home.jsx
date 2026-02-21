@@ -14,9 +14,11 @@ const Home = () => {
       <Navbar/>
       <Hero/>
       <Categories/>
-      <Context/>
+      <div className="BG_Themes">
+       <Context/>
+       <Features/>
+      </div>
       <Themes/>
-      <Features/>
       <Footer/>
       
     </>

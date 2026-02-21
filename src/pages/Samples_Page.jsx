@@ -30,14 +30,17 @@ const Samples_Page = () => {
 
   return (
     <div className="Inventory">
-      <div className="Back-Button">
+      {/* <div className="Back-Button">
         <button className="btn-Back" onClick={() => navigate('/')}>
           🡰
         </button>
-      </div>
+      </div> */}
+
+      <br />
+      <br />
 
       <div className="Inventory-Details">
-        <h2>Inventory</h2>
+        <h2>Inventory</h2> <br />
         <p>Here the products to make your invitation more elegant</p>
       </div>
 
@@ -54,7 +57,7 @@ const Samples_Page = () => {
             >
               <div className="Products">
                 <img src={item.image} alt="product" />
-                <h4>{item.name}</h4>
+                {/* <h4>{item.name}</h4> */}
               </div>
             </Link>
             <button className='btn-order' onClick={() => navigate('/Create_Invitation')}>Order Now</button>
