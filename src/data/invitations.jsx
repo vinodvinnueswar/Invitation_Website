@@ -6,46 +6,35 @@ export const invitations = [
     date: "10 May 2026",
     venue: "Hyderabad"
   },
-  {
-    template: "ayesh-imran",
-    groom: "Imran",
-    bride: "Ayesha",
-    date: "12 June 2026",
-    venue: "Delhi"
-  },
    {
     template: "rajat-neha",
-    groom: "Imran",
-    bride: "Ayesha",
+    groom: "Rajat",
+    bride: "Neha",
     date: "12 June 2026",
     venue: "Delhi"
   },
    {
     template: "raju-rani",
-    groom: "Imran",
-    bride: "Ayesha",
-    date: "12 June 2026",
-    venue: "Delhi"
+    groom: "Raju",
+    bride: "Rani",
+    date: "11 June 2026",
+    venue: "New Delhi"
   },
   {
     template: "vinod-vineela",
-    groom: "Imran",
-    bride: "Ayesha",
+    groom: "Vinod",
+    bride: "Vineela",
     date: "12 June 2026",
     venue: "Delhi"
   },
    {
     template: "namratas-function",
-    groom: "Imran",
-    bride: "Ayesha",
-    date: "12 June 2026",
-    venue: "Delhi"
+    date: "11 May 2026",
+    venue: "Vizag"
   },
   {
     template: "aishwaryas-function",
-    groom: "Imran",
-    bride: "Ayesha",
-    date: "12 June 2026",
-    venue: "Delhi"
+    date: "14 June 2026",
+    venue: "Karnataka"
   }
 ];

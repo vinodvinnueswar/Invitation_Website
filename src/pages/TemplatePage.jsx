@@ -2,7 +2,6 @@ import { useParams } from "react-router-dom";
 import  {invitations}  from "../data/invitations";
 
 import RoyalGold from "../templates/RoyalGold";
-import AyeshImran from '../templates/Ayesha_Imran/index_1'
 import Rajat_Neha from '../templates/Rajat_Neha/Rajat_Neha'
 import Raju_Rani from '../templates/Raju_Rani/Raju_Rani'
 import Vinod_Vineela from '../templates/Vinod_Vineela/Vinod_Vineela'
@@ -11,7 +10,6 @@ import Aishwaryas_Function from '../templates/Aishwaryas_Halsaree/Aishwaryas_Fun
 
 const templates = {
   "royal-gold": RoyalGold,
-  "ayesh-imran" : AyeshImran,
   "rajat-neha" : Rajat_Neha,
   "raju-rani" : Raju_Rani,
   "vinod-vineela" : Vinod_Vineela,
