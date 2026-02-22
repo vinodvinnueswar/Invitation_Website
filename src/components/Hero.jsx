@@ -23,7 +23,6 @@ const Hero = () => {
           </p>
 
           <div className="hero-buttons">
-
             <button
               className="btn primary"
               onClick={() => navigate("/Create_Invitation")}
