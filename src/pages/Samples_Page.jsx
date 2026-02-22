@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState,useEffect } from 'react'
 import { useNavigate } from 'react-router-dom'
 import img1 from '../assets/template_Images/Rajat_Neha_Template.png'
 import img2 from '../assets/template_Images/Raj_Rani_Template.png'
@@ -8,6 +8,7 @@ import img5 from '../assets/template_Images/Aishwaryas_Template.png'
 
 const Samples_Page = () => {
   const navigate = useNavigate()
+  const [loading, setLoading] = useState(true)
 
   const templates= [
     { imgSrc: img1 ,slug : 'rajat-neha' },
@@ -16,6 +17,17 @@ const Samples_Page = () => {
     { imgSrc: img4 , slug : 'namratas-function'},
     { imgSrc: img5 , slug : 'aishwaryas-function'},
   ]
+
+  //   useEffect(() => {
+  //   // simulate loading
+  //   setTimeout(() => {
+  //     setLoading(false)
+  //   }, 500)
+  // }, [])
+
+  //  if (loading) {
+  //   return <h2 style={{ textAlign: 'center' }}>Loading inventory...</h2>
+  // }
 
   return (
     <div className="Inventory">
@@ -33,7 +45,9 @@ const Samples_Page = () => {
 
         {templates.map((item, index) => (
           <div className="card" key={index}  
-          onClick={() => navigate(`/template/${item.slug}`)}
+          onClick={(e) => { 
+             e.stopPropagation()
+            navigate(`/template/${item.slug}`)}}
               style={{ cursor: "pointer" }}
           >
             <div className="Products">
