@@ -5,7 +5,7 @@ const Hero = () => {
   const navigate = useNavigate();
 
   return (
-    <div className="Home">
+    <div className="Home-webpage">
       <section className="hero">
 
         <div className="hero-content">
@@ -33,7 +33,7 @@ const Hero = () => {
 
             <button
               className="btn secondary"
-              onClick={() => navigate("/Samples")}
+              onClick={() => navigate("/templates")}
             >
               Explore Sample Designs
             </button>

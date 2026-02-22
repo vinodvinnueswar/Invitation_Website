@@ -6,6 +6,7 @@ import Categories from './components/Categories'
 import './App.css'
 import Filtered from './pages/Filtered';
 import CreateInvitation from './components/CreateInvitation';
+import TemplatePage from './pages/TemplatePage';
  
  const App = () => {
    return (
@@ -13,9 +14,10 @@ import CreateInvitation from './components/CreateInvitation';
       <BrowserRouter>
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/Samples" element={<Samples_Page/>} />
+        <Route path="/templates" element={<Samples_Page/>} />
         <Route path='/Create_Invitation'  element={<CreateInvitation/>}/>
         <Route path='/Inventory/:category' element={<Filtered/>} />
+          <Route path="/template/:slug" element={<TemplatePage />} />
       </Routes>
     </BrowserRouter>
      </div>

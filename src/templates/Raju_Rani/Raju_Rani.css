@@ -1,0 +1,375 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playpen+Sans:wght@100..800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+
+.Home-page-Raju-Rani{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    font-family: "Playpen Sans", cursive;
+    font-size: 12px;
+    color: rgba(57, 2, 108, 0.738);
+    background-color: rgba(51, 2, 96, 0.695);
+}
+
+/* Intro_Container */
+.Intro_Container-Raju-Rani{
+    height: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: url('assets/BG_Imgc.png');
+    background-size: cover;
+}
+
+.Bg_img img{
+   margin-top: 50px;
+   height: 150px;
+   width: 110px;
+}
+.text{
+  margin-top: 10px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+}
+.text h1{
+    color: #9b722a;
+}
+
+/* Bride and Groom */
+.Bride_Groom-Raju-Rani{
+    padding: 20px;
+    background: url('assets/BG_Imgc.png');
+    background-size: cover;
+}
+.Bride_Groom-Raju-Rani h2{
+    margin-top: 20px;
+    background-color: rgba(240, 248, 255, 0.853);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.Groom{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    padding: 20px;
+    margin-top: 20px; 
+    background-color: rgba(240, 248, 255, 0.579);
+}
+.Groom img{
+    height: 210px;
+    width: 180px;
+    border: 3px solid rgba(57, 2, 108, 0.738);
+}
+
+
+/* Photo_gallery */
+.Photo_gallery-Raju-Rani{
+    padding: 20px;
+    background: url('assets/BG_Imgc.png');
+    background-size: cover;
+}
+.Photo_gallery-Raju-Rani h2{
+    background-color: rgba(240, 248, 255, 0.853);
+    padding: 10px;
+    border-radius: 20px;
+}
+.Gallery-Raju-Rani img{
+    margin-top: 20px;
+    height: 200px;
+    padding: 10px;
+    border: 2px solid aliceblue;
+}
+
+/* Location_Container */
+.Location_Container-Raju-Rani{
+    padding: 20px;
+    background: url('assets/BG_Imgc.png');
+}
+.Location_Container-Raju-Rani h2{
+    margin-top: 20px;
+    background-color: rgba(240, 248, 255, 0.853);
+    padding: 10px;
+    border-radius: 20px;
+}
+.Iframe{
+    border: 2px solid whitesmoke;
+    padding: 10px;
+}
+.btn{
+    background-color: aliceblue;
+    padding: 10px;
+}
+.btn a{
+    text-decoration: none;
+    color: rgba(57, 2, 108, 0.738);;
+}
+
+/* Social_Share */
+.Social_Share-Raju-Rani{
+    height: 500px;
+    padding: 20px;
+    overflow: hidden;
+    background: url('assets/Footer_BaI.png');
+    background-size: cover;
+}
+.Social_Share-Raju-Rani h2{
+    margin-top: 20px;
+    background-color: rgba(240, 248, 255, 0.853);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* Footer */
+.Footer{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+}
+.Footer-row{
+    display: flex;
+    gap: 40px;
+}
+.Footer-row a{
+    background-color: rgba(67, 2, 76, 0.723);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+    border: 2px solid rgba(57, 6, 106, 0.695);
+}
+
+
+/* Count Down */
+.countdown-Raju-Rani {
+  text-align: center;
+  padding: 50px 20px;
+  background: url('assets/BG_Imgc.png');
+}
+
+.countdown-Raju-Rani h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+  margin-bottom: 20px;
+    background-color: rgba(240, 248, 255, 0.853);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.timer-Raju-Rani {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.timer-Raju-Rani div {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  min-width: 90px;
+  border: 2px solid bisque;
+  
+}
+
+.timer-Raju-Rani span {
+  font-size: 28px;
+  font-weight: bold;
+ color: rgb(87, 50, 2);
+}
+
+/* Music PLayer */
+.music-container-Raju-Rani {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+}
+
+.music-container-Raju-Rani button {
+  background: rgba(67, 2, 76, 0.723);
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+  animation: pulse 2s infinite;
+}
+
+.spin {
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(38, 1, 56, 0.905); }
+  70% { box-shadow: 0 0 0 15px rgba(214,51,132,0); }
+}
+
+/* Open screeing */
+.opening-screen-Raju-Rani {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(240, 186, 247, 0.508);;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: scale(1.1);
+  pointer-events: none;
+}
+
+.invitation-card-Raju-Rani {
+ background: #3a0251a6;
+  padding: 50px 40px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 0 40px rgba(212,175,55,0.4);
+  border: 2px solid #E6C9A8;
+  animation: floatCard 4s ease-in-out infinite;
+}
+
+@keyframes floatCard {
+  0%,100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Couple Name with Gold Shimmer */
+.couple-name-Raju-Rani {
+  font-family: "Great Vibes", cursive;
+  font-size: 48px;
+  background: linear-gradient(90deg, #eb85b8, #ef37c7, #1f1001);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 4s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200px; }
+  100% { background-position: 200px; }
+}
+
+.invite-text-Raju-Rani {
+  margin: 20px 0 30px;
+  font-size: 18px;
+  color: #fff8ee;
+  letter-spacing: 1px;
+}
+
+/* Button */
+.open-btn-Raju-Rani {
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgba(240, 186, 247, 0.848);
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 15px rgba(196,164,132,0.6);
+}
+
+.open-btn-Raju-Rani:hover {
+  background: #D4AF37;
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(212,175,55,0.8);
+}
+
+
+.mobile-note{
+    display: none;
+}
+
+
+
+@media (min-width:1025px){
+
+  .Home-Raju-Rani{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background: rgba(67, 2, 76, 0.723);;
+  }
+
+  .Home-page-Raju-Rani{
+    width:400px;
+    height:780px;
+    margin:40px auto;
+    border-radius:40px;
+    border:15px solid black;
+    box-shadow:0 20px 60px rgba(0,0,0,0.3);
+    overflow-y: auto;
+    overflow-x: hidden;
+    background:white;
+  }
+
+    .mobile-note{
+    display:block;
+    text-align:center;
+    margin-top:15px;
+    color : white;
+    font-size:20px;
+    font-weight:500;
+  }
+}
+
+@media (min-width:768px){
+
+
+  .Home-Raju-Rani{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background: rgba(67, 2, 76, 0.723);
+  }
+
+  .Home-page-Raju-Rani{
+    width:400px;
+    height:780px;
+    margin:40px auto;
+    border-radius:40px;
+    border:15px solid black;
+    box-shadow:0 20px 60px rgba(0,0,0,0.3);
+    overflow-y: auto;
+  }
+
+    .mobile-note{
+    display:block;
+    text-align:center;
+    margin-top:15px;
+    color : white;
+    font-size:20px;
+    font-weight:500;
+  }
+}
+

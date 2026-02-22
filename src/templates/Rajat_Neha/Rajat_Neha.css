@@ -1,0 +1,408 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playpen+Sans:wght@100..800&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* body{
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  font-family: "Playpen Sans", cursive;
+  font-size: 12px;
+} */
+
+.Home-Rajat-Neha{
+  text-align: center;
+  font-family: "Playpen Sans", cursive;
+  font-size: 10px;
+   background: linear-gradient(90deg, rgba(155, 114, 42, 1) 0%, rgba(154, 121, 43, 1) 0%, rgba(168, 163, 29, 1) 0%, rgba(237, 221, 83, 1) 0%, rgba(207, 162, 58, 0.98) 0%, rgba(237, 221, 83, 1) 58%, rgba(237, 221, 83, 1) 81%); 
+}
+
+/* Intro_Container */
+.Intro_Container-Rajat-Neha{
+  height: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background: url('assets/Images/BG_Theme2In.png');
+  background-size: cover;
+}
+
+.gold-text {
+  background: linear-gradient(
+    120deg,
+    #bf953f,
+    #fcf6ba,
+    #b38728,
+    #fbf5b7,
+    #aa771c
+  );
+  background-size: 300% 300%;
+  animation: goldShine 5s infinite linear;
+
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@keyframes goldShine {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 300% 50%; }
+}
+
+.text-Rajat-Neha{
+  margin-top: 50px;
+  font-family: "Great Vibes", cursive;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 18px;
+}
+
+.Gold_Line-Rajat-Neha img{
+  height: 20px;
+  padding-left: 50px;
+}
+
+/* Bride and Groom */
+.Bride_Groom-Rajat-Neha{
+  padding: 20px;
+  background: url('assets/Images/BG_Theme3In.png');
+  background-size: cover;
+}
+.Bride-Rajat-Neha{
+  margin-top: 10px;
+  padding: 20px;
+  background: #570202b4;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Bride-Rajat-Neha img{
+  height: 250px;
+  width: 190px;
+  border: 2px solid burlywood;
+}
+
+/* Photo_Gallery */
+.Photo_Gallery-Rajat-Neha{
+  padding: 20px;
+  background: url('assets/Images/BG_Theme4In.png');
+  background-size: cover;
+}
+.Pictures-Rajat-Neha{
+    margin-top: 20px;
+}
+.gold-text-Rajat-Neha{
+  background-color: #aa761c65;
+}
+.Pics-Rajat-Neha img{
+   height: auto;
+   max-height: 400px;
+   width: 100%;
+   border-radius: 10px;
+   padding: 2px;
+   border: 2px solid burlywood;
+   padding: 20px;
+}
+
+.lg-react-element {
+}
+
+/* Video-Player */
+.Video-Player{
+    margin-top: 50px;
+    border: 2px solid burlywood;
+    padding: 12px;
+}
+.Video-Player video{
+    height: 120%;
+    width: 100%;
+}
+
+/* Location Section */
+.Location_Section-Rajat-Neha{
+    margin-top: 0.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background: url('assets/Images/BG_Theme4In.png');
+    background-size: cover;
+    padding: 20px;
+}
+.Iframe{
+    margin-top: 20px;
+    border: 2px solid burlywood;
+    padding: 20px;
+}
+
+.btn-location-Rajat-Neha a{
+    padding: 10px 100px;
+    border: 2px solid bisque;
+    background-color: rgba(250, 189, 109, 0.055);
+    text-decoration: none;
+    color: maroon;
+}
+
+/* Social Share */
+.Social_Share-Rajat-Neha{
+  height: 300px;
+  padding: 20px;
+}
+.Social_Share-Rajat-Neha h2{
+  background-color: rgba(128, 0, 0, 0.355);
+  padding: 10px;
+  border-radius: 20px;
+}
+.Media-Rajat-Neha{
+  margin-top: 10px;
+}
+
+/* Footer */
+.Footer-Rajat-Neha{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  padding: 20px;
+}
+.Footer-row-Rajat-Neha{
+  display: flex;
+  align-items: center;
+  gap: 80px;
+}
+.Footer-row-Rajat-Neha a{
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 5px;
+  border: 2px solid maroon;
+  color: #9b722a;
+}
+
+.mobile-note{
+  display: none;
+}
+
+
+
+
+
+/* Count Down */
+.countdown-Rajat-Neha {
+  text-align: center;
+  padding: 50px 20px;
+  background: url('assets/Images/BG_Theme4In.png');
+   background-size: cover;
+}
+
+.countdown-Rajat-Neha h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+  margin-bottom: 20px;
+}
+
+.timer-Rajat-Neha {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.timer-Rajat-Neha div {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  min-width: 90px;
+  border: 2px solid bisque;
+  background-color: rgba(250, 189, 109, 0.055);
+  
+}
+
+.timer-Rajat-Neha span {
+  font-size: 28px;
+  font-weight: bold;
+ color: rgb(87, 50, 2);
+}
+
+/* Music PLayer */
+.music-container-Rajat-Neha {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+}
+
+.music-container-Rajat-Neha button {
+  background: #ac7c13db;
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+  animation: pulse 2s infinite;
+}
+
+.spin {
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(124, 114, 2, 0.905); }
+  70% { box-shadow: 0 0 0 15px rgba(214,51,132,0); }
+}
+
+/* Open screeing */
+.opening-screen-Rajat-Neha {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(90deg, rgba(155, 114, 42, 1) 0%, rgba(154, 121, 43, 1) 0%, rgba(168, 163, 29, 1) 0%, rgba(237, 221, 83, 1) 0%, rgba(207, 162, 58, 0.98) 0%, rgba(237, 221, 83, 1) 58%, rgba(237, 221, 83, 1) 81%); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: scale(1.1);
+  pointer-events: none;
+}
+
+.invitation-card-Rajat-Neha {
+ background: #11012c;
+  padding: 50px 40px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 0 40px rgba(212,175,55,0.4);
+  border: 2px solid #E6C9A8;
+  animation: floatCard 4s ease-in-out infinite;
+}
+
+@keyframes floatCard {
+  0%,100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Couple Name with Gold Shimmer */
+.couple-name-Rajat-Neha {
+  font-family: "Great Vibes", cursive;
+  font-size: 48px;
+  background: linear-gradient(90deg, #956536, #D4AF37, #C4A484);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 4s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200px; }
+  100% { background-position: 200px; }
+}
+
+.invite-text-Rajat-Neha {
+  margin: 20px 0 30px;
+  font-size: 18px;
+  color: #fff8ee;
+  letter-spacing: 1px;
+}
+
+/* Button */
+.open-btn-Rajat-Neha {
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  background: linear-gradient(90deg, rgba(155, 114, 42, 1) 0%, rgba(154, 121, 43, 1) 0%, rgba(168, 163, 29, 1) 0%, rgba(237, 221, 83, 1) 0%, rgba(207, 162, 58, 0.98) 0%, rgba(237, 221, 83, 1) 58%, rgba(237, 221, 83, 1) 81%); 
+  color: #fff8ee;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 15px rgba(196,164,132,0.6);
+}
+
+.open-btn-Rajat-Neha:hover {
+  background: #D4AF37;
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(212,175,55,0.8);
+}
+
+
+
+
+
+@media (min-width:1025px){
+
+  .Home-Rajat-Neha{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+  }
+
+  .Home-page-Rajat-Neha{
+    width:400px;
+    height:780px;
+    margin:40px auto;
+    border-radius:40px;
+    border:15px solid black;
+    box-shadow:0 20px 60px rgba(0,0,0,0.3);
+    overflow-y: auto;
+    overflow-x: hidden;
+    background:white;
+  }
+
+    .mobile-note{
+    display:block;
+    text-align:center;
+    margin-top:15px;
+    color : white;
+    font-size:20px;
+    font-weight:500;
+  }
+}
+
+@media (min-width:768px){
+
+
+  .Home-Rajat-Neha{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+  }
+
+  .Home-page-Rajat-Neha{
+    width:400px;
+    height:780px;
+    margin:40px auto;
+    border-radius:40px;
+    border:15px solid black;
+    box-shadow:0 20px 60px rgba(0,0,0,0.3);
+    overflow-y: auto;
+    background: linear-gradient(90deg, rgba(155, 114, 42, 1) 0%, rgba(154, 121, 43, 1) 0%, rgba(168, 163, 29, 1) 0%, rgba(237, 221, 83, 1) 0%, rgba(207, 162, 58, 0.98) 0%, rgba(237, 221, 83, 1) 58%, rgba(237, 221, 83, 1) 81%); 
+  }
+
+    .mobile-note{
+    display:block;
+    text-align:center;
+    margin-top:15px;
+    color : white;
+    font-size:20px;
+    font-weight:500;
+  }
+}
+

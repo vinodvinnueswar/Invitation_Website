@@ -13,7 +13,7 @@ body{
   font-family: "Open Sans", sans-serif;
   background: linear-gradient(rgba(248, 227, 207, 0.8), rgba(246, 204, 204, 0.793)), url('assets/images/Theme-bg.jpeg');
   background-size: cover;
-   color: #7a1f2b;
+  color: #7a1f2b;
   line-height:1.6;
 }
 
@@ -27,8 +27,11 @@ section{
   padding:80px 10%;
 }
 
-h1,h2,h3{
+.Home-head-tags {
   font-family: "Playfair Display", serif;
+}
+.Home-head-tags p{
+  font-family: "Open Sans", sans-serif;
 }
 
 
@@ -263,7 +266,7 @@ border-radius:20px;
 
 
 /* FOOTER */
-.Footer{
+.Footer-Website{
   background:#111;
   color:white;
   padding:60px 10%;
@@ -278,29 +281,29 @@ border-radius:20px;
   gap:40px;
 }
 
-.Footer h2{
+.Footer-Website h2{
   font-size:20px;
   margin-bottom:10px;
   color:#ffcc70;
 }
 
-.Footer p{
+.Footer-Website p{
   line-height:1.6;
   color:#ccc;
 }
 
-.Footer ul{
+.Footer-Website ul{
   list-style:none;
 }
 
-.Footer ul li{
+.Footer-Website ul li{
   margin-bottom:8px;
   cursor:pointer;
   color:#ccc;
   transition:0.3s;
 }
 
-.Footer ul li:hover{
+.Footer-Website ul li:hover{
   color:#ffcc70;
 }
 

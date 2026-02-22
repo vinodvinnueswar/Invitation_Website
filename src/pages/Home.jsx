@@ -5,13 +5,14 @@ import Hero from '../components/Hero'
 import Categories from '../components/Categories'
 import Features from '../components/Features'
 import Themes from '../components/Themes'
-import Footer from '../components/Footer'
 import Context from '../components/Context'
+import Footer_site from '../components/Footer_site'
 
 const Home = () => {
   return (
     <>
-      <Navbar/>
+     <div className="Home-head-tags">
+       <Navbar/>
       <Hero/>
       <Categories/>
       <div className="BG_Themes">
@@ -19,7 +20,8 @@ const Home = () => {
        <Features/>
       </div>
       <Themes/>
-      <Footer/>
+      <Footer_site/>
+     </div>
       
     </>
   

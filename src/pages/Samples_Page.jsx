@@ -1,70 +1,53 @@
-import React, { useEffect, useState } from 'react'
-import { useNavigate, Link } from 'react-router-dom'
-import { API_Path } from '../helpers/ApiPath'
+import React from 'react'
+import { useNavigate } from 'react-router-dom'
+import img1 from '../assets/template_Images/Rajat_Neha_Template.png'
+import img2 from '../assets/template_Images/Raj_Rani_Template.png'
+import img3 from '../assets/template_Images/Vinod_Vineela_Template.png'
+import img4 from '../assets/template_Images/Namratas_Template.png'
+import img5 from '../assets/template_Images/Aishwaryas_Template.png'
 
 const Samples_Page = () => {
   const navigate = useNavigate()
 
-  const [vendorData, setVendorData] = useState({ vendors: [] })
-  const [loading, setLoading] = useState(true)
-
-  const vendorFirmHandler = async () => {
-    try {
-      const response = await fetch(`${API_Path}/vendor/all-vendors`)
-      const newData = await response.json()
-      setVendorData(newData)
-      setLoading(false)
-    } catch (error) {
-      console.error('failed to fetch data', error)
-      setLoading(false)
-    }
-  }
-
-  useEffect(() => {
-    vendorFirmHandler()
-  }, [])
-
-  if (loading) {
-    return <h2 style={{ textAlign: 'center' }}>Loading inventory...</h2>
-  }
+  const templates= [
+    { imgSrc: img1 ,slug : 'rajat-neha' },
+    { imgSrc: img2 , slug : 'raju-rani'},
+    { imgSrc: img3 , slug : 'vinod-vineela'},
+    { imgSrc: img4 , slug : 'namratas-function'},
+    { imgSrc: img5 , slug : 'aishwaryas-function'},
+  ]
 
   return (
     <div className="Inventory">
-      {/* <div className="Back-Button">
-        <button className="btn-Back" onClick={() => navigate('/')}>
-          🡰
-        </button>
-      </div> */}
-
       <br />
       <br />
 
       <div className="Inventory-Details">
-        <h2>Inventory</h2> <br />
+        <h2>Inventory</h2>
+        <br />
         <p>Here the products to make your invitation more elegant</p>
       </div>
 
       <div className="Inventory-Products">
-        {vendorData.vendors.length === 0 && <h3>No items found</h3>}
+        {templates.length === 0 && <h3>No items found</h3>}
 
-        {vendorData.vendors.map((vendor) =>
-          vendor.inventory?.map((item, index) => (
-            <>
-            <div className="card">
-            <Link
-              key={`${vendor._id}-${index}`}
-              to={item?.webUrl} style={{textDecoration: "none"}}
-            >
-              <div className="Products">
-                <img src={item.image} alt="product" />
-                {/* <h4>{item.name}</h4> */}
-              </div>
-            </Link>
-            <button className='btn-order' onClick={() => navigate('/Create_Invitation')}>Order Now</button>
+        {templates.map((item, index) => (
+          <div className="card" key={index}  
+          onClick={() => navigate(`/template/${item.slug}`)}
+              style={{ cursor: "pointer" }}
+          >
+            <div className="Products">
+              <img src={item.imgSrc} alt="product" />
             </div>
-            </>
-          ))
-        )}
+
+            <button
+              className="btn-order"
+              onClick={() => navigate('/Create_Invitation')}
+            >
+              Order Now
+            </button>
+          </div>
+        ))}
       </div>
     </div>
   )

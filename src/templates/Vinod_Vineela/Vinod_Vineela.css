@@ -1,0 +1,433 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Playpen+Sans:wght@100..800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.Home-Vinod-Vineela{
+    margin: 0;
+    padding: 0;
+    font-family: "Playpen Sans", cursive;
+    font-size: 10px;
+    color: rgba(131, 99, 2, 0.805);
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Intro Page */
+.Intro_Container-Vinod-Vineela{
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(rgba(242, 201, 165, 0.052), rgba(241, 148, 171, 0.085)),url('assets/Images/BG_Theme.png');
+    background-size: cover;
+}
+.text-Vinod-Vineela{
+    margin-top: 50px;
+    padding: 20px;
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 18px;
+    text-align: center;
+}
+.text-Vinod-Vineela h1{
+    margin-top: 20px;
+}
+.Gold_Line-Vinod-Vineela{
+   height: 20px;
+}
+.Gold_Line-Vinod-Vineela img{
+  margin-top: -20px;
+    height: 20px;
+    
+}
+.Gold_Line2-Vinod-Vineela{
+    height: 10px;
+}
+.Gold_Line2-Vinod-Vineela img{
+    margin-top: 10px;
+    height: 15px;
+}
+.Quoate{
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* Bride_Groom */
+.Bride_Groom-Vinod-Vineela{
+    padding: 20px;
+    background: linear-gradient(rgba(242, 201, 165, 0.052), rgba(241, 148, 171, 0.085)),url('assets/Images/BG_Theme.png');
+    background-size: cover;
+}
+.Bride_Groom-Vinod-Vineela h2{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+.Bride-Vinod-Vineela{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Bride-Vinod-Vineela img{
+    height: 330px;
+    width: 200px;
+    border: 2px solid burlywood;
+    padding: 10px;
+    border-radius: 10px;
+}
+.Bride-Vinod-Vineela p{
+    background-color: rgba(249, 203, 142, 0.356);
+    padding: 20px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+/* Photo Gallery */
+.Photo_Gallery{
+    padding: 20px;
+    background: linear-gradient(rgba(242, 201, 165, 0.052), rgba(241, 148, 171, 0.085)),url('assets/Images/BG_Gallery.png');
+    background-size: cover;
+}
+.Photo_Gallery h2{
+        margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+.Pictures{
+    margin-top: 20px;
+}
+.Pics img{
+    margin-top: 20px;
+    height: 100%;
+    width: 100%;
+    padding: 10px;
+    border: 2px solid burlywood;
+}
+.lg-react-element {
+    column-count: 0;
+
+}
+
+/* Video-Player */
+.Video-Player{
+    margin-top: 50px;
+    border: 2px solid burlywood;
+    padding: 12px;
+}
+.Video-Player video{
+    height: 120%;
+    width: 100%;
+}
+
+/* Location */
+.Location_Container{
+    padding: 20px;
+    background: linear-gradient(rgba(242, 201, 165, 0.052), rgba(241, 148, 171, 0.085)),url('assets/Images/BG_Theme.png');
+    background-size: cover;
+}
+.Location_Container h2{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+.Iframe{
+    border: 2px solid burlywood;
+    padding: 10px;
+}
+.btn{
+    border: 2px solid burlywood;
+    padding: 10px 40px;
+    background-color: rgba(64, 2, 2, 0.804);
+    color: antiquewhite;
+}
+.btn a{
+    color: antiquewhite;
+    text-decoration: none;
+}
+
+/* Best_Wishes */
+.Best_Wishes{
+    height: 500px;
+    padding: 40px;
+    background: linear-gradient(rgba(242, 201, 165, 0.052), rgba(241, 148, 171, 0.085)),url('assets/Images/BG_Theme.png');
+    background-size: cover;
+}
+.Best_Wishes h2{
+    margin-top: 20%;
+}
+.wishes{
+    font-size: 15px;
+    border: 2px solid burlywood;
+    height: 200px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+
+/* Social_Share */
+.Social_Share{
+    height: 500px;
+    padding: 20px;
+    overflow: hidden;
+    background: url('assets/Images/BG_Gallery.png');
+}
+.Social_Share h2{
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+/* Footer */
+.Footer{
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    padding: 20px;
+}
+.Footer-row{
+    display: flex;
+    gap: 40px;
+}
+.Footer-row a{
+    background-color: rgba(131, 99, 2, 0.805);
+    text-decoration: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+/* Count Down */
+.countdown-Vinod-Vineela {
+  text-align: center;
+  padding: 50px 20px;
+  background: url('assets/Images/BG_Gallery.png');
+  background-size: cover;
+}
+
+.countdown-Vinod-Vineela h2 {
+  font-family: 'Great Vibes', cursive;
+  font-size: 40px;
+  margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.timer-Vinod-Vineela {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  flex-wrap: wrap;
+}
+
+.timer-Vinod-Vineela div {
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+  min-width: 90px;
+  border: 2px solid bisque;
+  
+}
+
+.timer-Vinod-Vineela span {
+  font-size: 28px;
+  font-weight: bold;
+ color: rgb(87, 50, 2);
+}
+
+/* Music PLayer */
+.music-container {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  text-align: center;
+}
+
+.music-container button {
+  background: rgba(131, 99, 2, 0.805);
+  border: none;
+  border-radius: 50%;
+  padding: 15px;
+  font-size: 22px;
+  cursor: pointer;
+  color: white;
+  animation: pulse 2s infinite;
+}
+
+.spin {
+  animation: rotate 5s linear infinite;
+}
+
+@keyframes rotate {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+@keyframes pulse {
+  0% { box-shadow: 0 0 0 0 rgba(131, 99, 2, 0.805); }
+  70% { box-shadow: 0 0 0 15px rgba(214,51,132,0); }
+}
+
+/* Open screeing */
+.opening-screen {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background-color: rgba(255, 221, 173, 0.507);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+  transition: opacity 1.2s ease, transform 1.2s ease;
+}
+
+.fade-out {
+  opacity: 0;
+  transform: scale(1.1);
+  pointer-events: none;
+}
+
+.invitation-card {
+ background: rgba(82, 62, 2, 0.696);;;
+  padding: 50px 40px;
+  border-radius: 25px;
+  text-align: center;
+  box-shadow: 0 0 40px rgba(212,175,55,0.4);
+  border: 2px solid #E6C9A8;
+  animation: floatCard 4s ease-in-out infinite;
+}
+
+@keyframes floatCard {
+  0%,100% { transform: translateY(0px); }
+  50% { transform: translateY(-10px); }
+}
+
+/* Couple Name with Gold Shimmer */
+.couple-name {
+  font-family: "Great Vibes", cursive;
+  font-size: 48px;
+  background: linear-gradient(90deg, #ebd785, #ef9637, #1f1001);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: shimmer 4s linear infinite;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200px; }
+  100% { background-position: 200px; }
+}
+
+.invite-text {
+  margin: 20px 0 30px;
+  font-size: 18px;
+  color: #fff8ee;
+  letter-spacing: 1px;
+}
+
+/* Button */
+.open-btn {
+  padding: 12px 30px;
+  border-radius: 30px;
+  border: none;
+  background-color: rgba(255, 221, 173, 0.982);
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  box-shadow: 0 0 15px rgba(196,164,132,0.6);
+}
+
+.open-btn:hover {
+  background: #D4AF37;
+  transform: scale(1.05);
+  box-shadow: 0 0 25px rgba(212,175,55,0.8);
+}
+
+
+.mobile-note{
+    display: none;
+}
+
+
+
+@media (min-width:1025px){
+
+
+  .Home-Vinod-Vineela{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background: rgba(255, 221, 173, 0.507);;
+  }
+
+  .Home-page-Vinod-Vineela{
+    width:400px;
+    height:780px;
+    margin:40px auto;
+    border-radius:40px;
+    border:15px solid black;
+    box-shadow:0 20px 60px rgba(0,0,0,0.3);
+    overflow-y: auto;
+    overflow-x: hidden;
+    background:white;
+  }
+
+    .mobile-note{
+    display:block;
+    text-align:center;
+    margin-top:15px;
+    color : white;
+    font-size:20px;
+    font-weight:500;
+  }
+}
+
+@media (min-width:768px){
+
+
+  .Home-Vinod-Vineela{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+    background: rgba(255, 221, 173, 0.507);;
+  }
+
+  .Home-page-Vinod-Vineela{
+    width:400px;
+    height:780px;
+    margin:40px auto;
+    border-radius:40px;
+    border:15px solid black;
+    box-shadow:0 20px 60px rgba(0,0,0,0.3);
+    overflow-y: auto;
+  }
+
+    .mobile-note{
+    display:block;
+    text-align:center;
+    margin-top:15px;
+    color : white;
+    font-size:20px;
+    font-weight:500;
+  }
+}
+

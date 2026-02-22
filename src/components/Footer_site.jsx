@@ -1,12 +1,11 @@
-import React from "react";
+import React from 'react'
 import instagram from "../assets/images/Social-media/instagram.png";
 import facebook from "../assets/images/Social-media/communication.png";
 import whatsApp from "../assets/images/Social-media/whatsapp.png";
 
-const Footer = () => {
+const Footer_site = () => {
   return (
-    <div className="Footer">
-      <div className="Footer-details">
+    <div className="Footer-Website">
         <div className="Footer-row">
 
           <div className="site-details">
@@ -77,8 +76,9 @@ const Footer = () => {
         <p>© 2026 InviteDigitly. All Rights Reserved.</p>
         </div>
       </div>
-    </div>
-  );
-};
+    
+  )
+}
 
-export default Footer;
+export default Footer_site
+
