@@ -10,13 +10,38 @@ const Samples_Page = () => {
   const navigate = useNavigate()
   const [loading, setLoading] = useState(true)
 
-  const templates= [
-    { imgSrc: img1 ,slug : 'rajat-neha' },
-    { imgSrc: img2 , slug : 'raju-rani'},
-    { imgSrc: img3 , slug : 'vinod-vineela'},
-    { imgSrc: img4 , slug : 'namratas-function'},
-    { imgSrc: img5 , slug : 'aishwaryas-function'},
-  ]
+const templates = [
+  {
+    id: 1,
+    imgSrc: img1,
+    slug: "rajat-neha",
+    category: "wedding"
+  },
+  {
+    id: 2,
+    imgSrc: img2,
+    slug: "raju-rani",
+    category: "wedding"
+  },
+  {
+    id: 3,
+    imgSrc: img3,
+    slug: "vinod-vineela",
+    category: "wedding"
+  },
+  {
+    id: 4,
+    imgSrc: img4,
+    slug: "namratas-function",
+    category: "halfsaree"
+  },
+  {
+    id: 5,
+    imgSrc: img5,
+    slug: "aishwaryas-function",
+    category: "halfsaree"
+  }
+];
 
   //   useEffect(() => {
   //   // simulate loading
@@ -43,8 +68,8 @@ const Samples_Page = () => {
       <div className="Inventory-Products">
         {templates.length === 0 && <h3>No items found</h3>}
 
-        {templates.map((item, index) => (
-          <div className="card" key={index}  
+        {templates.map((item) => (
+          <div className="card" key={item.id}  
           onClick={(e) => { 
              e.stopPropagation()
             navigate(`/template/${item.slug}`)}}

@@ -19,12 +19,12 @@ const templates = {
 };
 
 function TemplatePage() {
+
   const { slug } = useParams();
  
 
   const invitation = invitations.find(item => item.template === slug);
   const SelectedTemplate = templates[slug];
-
 
 
   if (!invitation || !SelectedTemplate) {

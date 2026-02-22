@@ -7,6 +7,7 @@ import halfsareeImg from "../assets/images/half-saree.png";
 import housewarmingImg from "../assets/images/house-warming.png";
 
 const Categories = () => {
+
   const navigate = useNavigate();
 
   const categories = [
@@ -37,15 +38,9 @@ const Categories = () => {
 
       <h2>Choose Your Invitation Category</h2>
 
-      <br />
-
       <p className="category-subtitle">
-        Discover beautifully designed digital invitations for every special
-        occasion. Select a category to explore unique and customizable
-        invitation templates.
+        Discover beautifully designed digital invitations.
       </p>
-
-      <br />
 
       <div className="category-grid">
         {categories.map((item, index) => (
@@ -54,12 +49,7 @@ const Categories = () => {
             key={index}
             onClick={() => navigate(item.link)}
           >
-            <img
-              src={item.image}
-              alt={item.title}
-              className="category-img"
-            />
-
+            <img src={item.image} alt={item.title} />
             <h3>{item.title}</h3>
           </div>
         ))}

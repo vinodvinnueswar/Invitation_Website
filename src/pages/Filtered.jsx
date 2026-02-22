@@ -1,78 +1,64 @@
-// import React, { useEffect, useState } from 'react'
-// import { Link, useNavigate, useParams } from "react-router-dom";
-// import { API_Path } from '../helpers/ApiPath';
+import React from "react";
+import { useParams, useNavigate } from "react-router-dom";
+import { templates } from "../data/template";
 
+const Filtered = () => {
 
-// const Filtered = () => {
-//     const navigate = useNavigate()
-//     const { category } = useParams(); // 👈 from URL
+  const { category } = useParams();
+  const navigate = useNavigate();
 
-//   const [vendors , setVendorData] = useState([]);
+  const filteredTemplates = templates.filter(
+    (item) =>
+      item.category.toLowerCase() === category.toLowerCase()
+  );
 
-//   const categoryDataHandler = async() =>{
-//       try {
-//         const response = await fetch(`${API_Path}/vendor/all-vendors`)
-//         const newCategoryData = await response.json();
-//         setVendorData(newCategoryData.vendors)
-//         console.log(newCategoryData)
+  return (
+    <div className="Inventory">
 
-//       } catch (error) {
-//         console.log("Failed to fetch data");
-//         alert("failed to fetch data")
-//       }
+      <br />
+      <br />
 
-//   }
+      <div className="Inventory-Details">
+        <h2>{category.toUpperCase()} INVITATIONS</h2>
+      </div>
 
-//     useEffect(() => {
-//       categoryDataHandler()
-//     },[])
+      <div className="Inventory-Products">
 
-    
-//   const filteredData = vendors.flatMap(vendor =>
-//   (vendor.inventory || []).filter(item =>
-//     item.category &&
-//     item.category.toString().toLowerCase().trim() ===
-//     category.toLowerCase().trim()
-//   )
-// );
+        {filteredTemplates.length > 0 ? (
+          filteredTemplates.map((item) => (
 
+            <div
+              className="card"
+              key={item.id}
+              onClick={() => navigate(`/template/${item.slug}`)}
+              style={{ cursor: "pointer" }}
+            >
 
+              <div className="Products">
+                <img src={item.imgSrc} alt="template" />
+              </div>
 
+              <button
+                className="btn-order"
+                onClick={(e) => {
+                  e.stopPropagation();
+                  navigate("/Create_Invitation");
+                }}
+              >
+                Order Now
+              </button>
 
-//   return (
-       
-//       <div className="Inventory">
-//         {/* <div className="Back-Button">
-//             <button className='btn-Back' onClick={ () => navigate('/')}>🡰</button>
-//         </div> */}
-//         <br />
-//         <br />
-//         <div className="Inventory-Details">
-//            <h2>{category.toUpperCase()} INVENTORY</h2>
-//         </div>
-//       <div className="Inventory-Products">
-//             {filteredData.length > 0 ? (
-//               filteredData.map(item => (
-//                 <div className="card">
-//                 <Link className="Products" to={item?.webUrl}>
-//                 <div key={item._id}>
-//                   <img
-//                   src={item.image}
-//                   alt={item.name || 'Product'}
-//                   />
-//                   {/* <h4>{item.name}</h4> */}
-//                 </div>
-//                 </Link>
-//                  <button className='btn-order' onClick={() => navigate('/Create_Invitation')}>Order Now</button>
-//                 </div>
-//               ))
-//             ) : (
-//               <h3>No items found</h3>
-//   )}
-// </div>
+            </div>
 
-//     </div>
-//   )
-// }
+          ))
+        ) : (
+          <h3>No templates found</h3>
+        )}
 
-// export default Filtered
+      </div>
+
+    </div>
+  );
+};
+
+export default Filtered;
